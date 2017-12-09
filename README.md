@@ -32,3 +32,8 @@ Agregar usuario a configuracion
 
   git config --global user.email "arielchitay91@gmail.com"
   git config --global user.name "ariel91"
+  
+Para subir cambios 
+---------------------
+git push -u origin master
+
