@@ -37,3 +37,12 @@ Para subir cambios
 ---------------------
 git push -u origin master
 
+Comando para bajar repositorios
+--------------------
+git clone URL 
+
+Una vez clonado, se mantiene actualizado con el siguiente comando
+----------------------
+git pull
+
+
