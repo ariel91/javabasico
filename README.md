@@ -20,5 +20,15 @@ Iniciar Repositorio
 ------
 git init
 
+Agregar todos los archivos a Staging Area
+------
+git add .
 
-"# javabasico" 
+hacer commit
+git commit -m "Inicializacion del repositorio"
+
+
+Agregar usuario a configuracion
+
+  git config --global user.email "arielchitay91@gmail.com"
+  git config --global user.name "ariel91"
