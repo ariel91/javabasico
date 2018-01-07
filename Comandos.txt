@@ -1,0 +1,36 @@
+Comandos Lectura
+String dato= JOptionPane.showInputDialog("Introducir valor"); // Ingreso de datos
+next() solo lee hasta donde encuentra un espacio (hasta un espacio).
+nextLine() lee todo incluyendo espacios (hasta un enter).
+Scanner lector = new Scanner(System.in);
+String p1 = lector.next();               //lee una cadena de texto
+String p2 = lector.nextLine();       //lee una cadena de texto hasta fin de linea
+int n1 = lector.nextInt();                 //lee un numero entero
+double n2 = lector.nextDouble();   //lee un numero de tipo double
+float n3 = lector.nextFloat();          //lee un número de tipo flotante 
+
+Conversion de datos
+double conversion1 = Double.parseDouble(dato); // Conversion de dato
+int edad = Integer.parseInt(entrada);// Convierte dato String a Integer
+
+Tipo de metodos: Con retorno y sin retorno
+
+Sin retorno
+
+public static void mensaje(String nombre){
+
+}
+
+Con retorno
+Public Static String pregunta(String nombre){
+// En este espacio escriba el programa que desea realizar
+Return nombre; // Este es el resultado que devuelve el metodo al main.
+}
+
+Creacion de Objetos
+NombreClase + NombreObjeto = new NombreClase;
+
+Convocatoria de metodo a traves de un objeto en el main principal
+NombreObjeto.NombreMetodoaConvocar();
+
+

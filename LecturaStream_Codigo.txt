@@ -1,0 +1,47 @@
+//Lectura de datos a traves de streams
+
+Lectura para bytes:
+Clases Abstractas
+InputStream
+OutputStream
+
+Lectura de caracteres
+Clases abstractas
+Reader
+Writer
+
+Especificacion de ubicacion de archivos
+FileReader
+
+
+package leyendo;
+import java.io.*;
+
+public class Acceso_Fichero {
+    
+    public static void main(String[] args){
+    Leer_Fichero accediendo = new Leer_Fichero();
+    accediendo.lee();
+}}
+    
+    class Leer_Fichero{
+    public void lee(){
+        
+        try{
+        FileReader entrada = new FileReader("C:/Cosas/streams.txt");
+        int c = entrada.read();// ya que el metodo read devuelve un entero
+            while (c != -1){
+            c = entrada.read();
+            char letra = (char)c;
+            System.out.println(letra);    
+        }     
+        }catch(IOException e){
+            System.out.print("No se ha encontrado el archivo");
+        }
+    }
+}
+
+
+Leer y escribir un archivo de forma basica , sobre escribiendo.
+
+https://www.youtube.com/watch?v=1d8X278DAWA

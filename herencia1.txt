@@ -1,0 +1,24 @@
+//SubClase
+
+public class Empleado extends Persona{
+	double sueldo;
+	String telefono, direccion;
+	
+	public Empleado(String nom, int ed, double suel, String tel, String dir){// ya que esta heredando de persona necesita los mismos atributos
+		super(nom,ed); // se usa la palabra super cuando la clase hereda y usar los dos parametros que se heredaron
+		this.direccion = dir;
+		this.sueldo = suel;
+		this.telefono = tel;
+	}
+// cuando uno hereda, hereda atributos y metodos
+	
+	@Override // quiere decir que es un metodo que ya esta en otro lado
+	public void verDatos(){
+		JOptionPane.showMessageDialog(null,"Nombre:" + nombre + "\nEdad:"+ edad + "\nSueldo" + sueldo + "Telefono"+ telefono + "\nDireccion" + direccion, " Datos del empleado", Joption.Pane.INFORMATION_MESSAGE);
+		
+	}
+}
+/*
+ * Debe haber una clase padre y varias hijas (polimorfismo)
+ */
+ // idea, como eliminar el ruido de los videos de youtube.

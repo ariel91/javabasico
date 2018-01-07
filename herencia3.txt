@@ -1,0 +1,10 @@
+public class VideoTutorial15{
+
+	public static void main(Stirng[] args){
+		Empleado emp1 = new Empleado("Nombre Empleado", 23, 5000, "1234", "la direccion del men");
+		Empleado emp2 = new Empleado("Nombre 2 Empleado", 23, 5000, "1234", "la direccion del men");
+		emp1.verDatos();
+		emp2.verDatos();
+	}
+
+}
