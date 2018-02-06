@@ -1,0 +1,16 @@
+Informacion acerca de base de datos: 
+http://themissinglink.site/
+
+The web development is the union of diferent tools 
+
+Text Resource for all course.
+http://textbooks.opensuny.org/the-missing-link-an-introduction-to-web-development-and-programming/
+
+The carpet htdocs save the web site designed.
+
+Clase 1.
+
+Installing Mamp
+https://www.mamp.info/en/downloads/
+in this case es for windows.
+

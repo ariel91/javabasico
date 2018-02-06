@@ -1,0 +1,13 @@
+Installing PHP and SQL
+Our first technical task is to work through the installation steps including installing a text editor, installing MAMP or XAMPP (or equivalent), creating a MySql Database, and writing a PHP program.
+5 videos, 3 readings
+Leyendo: Textbook & Course Resources
+Vídeo: Welcome to the Course
+Vídeo: Installing MAMP on a Macintosh
+Vídeo: Installing MAMP on Windows 10
+Vídeo: Installing XAMPP on Windows 10
+Leyendo: Installing LAMP On Linux
+Cuadro de aviso de la discusión: Your Database Experience
+Leyendo: Assignment Specifications: Installing PHP/MySQL
+Elemento LTI: Peer Graded: Installing PHP/MySQL
+Vídeo: Bonus: Office Hours in the Hague
